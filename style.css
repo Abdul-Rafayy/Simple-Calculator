@@ -1,0 +1,74 @@
+@font-face {
+    font-family: My font ;
+    src: url(font/San\ Francisco\ Font.otf);
+}
+button{
+    background-color: #505050;
+    border-radius: 55px;
+    width: 55px;
+    height: 55px;
+    color: white;
+    border: none;
+    font-family: My font !important;
+    font-size: larger;
+    font-weight:900;
+    margin: 1px;
+
+}
+button:active{
+    background-color:#d4d4d2;
+     
+}
+.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#box{
+    background-color: #1c1c1c;
+    text-align: center;
+    border-radius: 30px;
+    padding: 50px;
+}
+#input{
+    width: 240px;
+    height: 50px;
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: right;
+    font-family: My font;
+}
+#input::placeholder{
+    color: white;
+}
+h1{
+    color: white;
+}
+#history{
+    color: white;
+    font-size: larger;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+.verticalBtn{
+    background-color: #ff9500;
+    color: white;
+}
+.verticalBtn:active{
+    color: #ff9500;
+    background-color: white;
+
+}
+.horizontalBtn{
+    background-color: #d4d4d2;
+    color: black;
+}
+.horizontalBtn:active{
+    background-color:white;
+}
+
+
